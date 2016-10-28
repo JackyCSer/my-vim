@@ -27,8 +27,8 @@ au FileType html setlocal dict+=~/.vim/dict/css.dict
 "Processing... % (ctrl+c to stop)
 "let g:fencview_autodetect=0
 "set rtp+=$GOROOT/misc/vim
-"
-"" 显示相关
+
+"显示相关
 syntax on
 set cul "高亮光标所在行
 set cuc
