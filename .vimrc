@@ -1,5 +1,3 @@
-" ~/.vimrc
-" Vim comfig
 set sw=4
 set ts=4
 set et
@@ -45,7 +43,7 @@ set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [POS=%l,%v][%p%%]\ %{strf
 set laststatus=2    " 启动显示状态行(1),总是显示状态行(2)
 set foldenable      " 允许折叠
 set nocompatible  "去掉讨厌的有关vi一致性模式，避免以前版本的一些bug和局限
-
+set backspace=indent,eol,start
 set autoindent
 set cindent
 set tabstop=4
@@ -63,7 +61,6 @@ set cmdheight=2
 filetype on
 filetype plugin on
 
-filetype indent on
 set viminfo+=!
 set iskeyword+=_,$,@,%,#,-
 
